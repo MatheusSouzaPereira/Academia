@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/matheus/Documentos/Material Softblue/RemoteSystemsTempFiles/Loucademia/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3076449333.index
+3566924420.index
+1285254909.index
+1245083962.index
+3011107906.index
+15409503.index

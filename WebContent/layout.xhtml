@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html > 
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	lang="pt-br">
+	
+	<head jsf:id="head">
+		<meta charset="ISO-8859-1"/>
+		<title>Loucademia</title>
+		<link rel="stylesheet" id="logo" href="css/Loucademia_Estilo.css"/>
+	</head>
+	<body>
+			<!--  Cabeçalho Inicio -->
+	 
+		<header>
+			<img src="images/a2.svg" />
+			<nav>
+				<div>
+					<a jsf:outcome = "dadosAluno"> | Novo aluno |</a>
+					<a jsf:outcome = "pesquisaDeAluno?clear=true"> Pesquisa de Aluno |</a>
+					<a jsf:outcome = "controleDeAcesso"> Controle de acesso | </a>
+					<a jsf:outcome = "relatoriosDeEntradaSaida"> Relatórios de Entradas e Saídas | </a>
+					<a jsf:outcome = "relatoriosDeSituacoes?clear=true"> Relatório de Situações | </a>
+				</div>		
+			</nav>				
+		</header>
+		<!--  Cabeçalho Fim  -->
+						<ui:insert name="conteudo"/>
+		
+		
+		</body>
+	</html>			

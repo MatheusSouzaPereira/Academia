@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/matheus/Documentos/Material Softblue/RemoteSystemsTempFiles/Loucademia/.metadata/.plugins/org.eclipse.jdt.core
+1245083962.index
+3308874798.index
